@@ -1,0 +1,53 @@
+<linker>
+  <assembly fullname="Unity.VisualScripting.Core" preserve="all" />
+  <assembly fullname="Unity.VisualScripting.Flow" preserve="all" />
+  <assembly fullname="Unity.VisualScripting.State" preserve="all" />
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.ConnectToWebRTC" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.SetUniquePlayerName" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.StartAudioTransmission" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.StopAudioTransmission" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.Disconnect" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.DataChannelConnectedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.ConnectToWebSocket" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.StopVideoTransmission" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.SendDataChannelMessage" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.DataChannelMessageReceivedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.AudioTransmissionReceivedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.WebSocketConnectionChangedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.VideoTransmissionReceivedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.StartVideoTransmission" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.SendWebSocketMessage" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimpleWebRTC.WebRTCConnectedEvent" preserve="all" />
+  </assembly>
+</linker>

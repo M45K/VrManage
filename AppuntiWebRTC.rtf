@@ -1,0 +1,32 @@
+{\rtf1}
+Apputi
+
+-Webrtc-signaling 
+è il server in npm , si lancia con "node .\server.js\"
+al suo interno 
+	const wss = new WebSocket.Server({ host: '192.168.1.20', port: 3000 });
+ci va messo ip e porta o renderlo variabile quando lo lanciamo 
+
+
+-SimpleWebRTC-Web
+è il visualizzatore , io lo lancio con live server di vscode 
+
+
+-STUN server locale
+ fare un terminale wsl2 con ubuntu 
+	sudo apt install coturn
+
+e per lanciarlo 
+	turnserver --no-auth --stun-only --listening-port 8888 --listening-ip 0.0.0.0
+questo chiaramente usa l'interfaccia di rete di wsl che non è la stessa del pc "host"
+sia in unity che nel SimpleWebRTC-Web bisogna mettere indirizzo web STUN di WSL altrimenti non va un cazzo
+
+
+-UNITY sto usando come build la scena FullBody Avatar di  VRIF  dove attaccata a un martello c'è un prefab con dentro camera e script vari
+	Client-STUNConnection
+
+
+
+GOTCHA GENERICI 
+
+lo start video streaming del prefab è da fare in modo che parta automagicaly perchè attualmente c'è qualcosa che lo ferma e non parte da solo 
